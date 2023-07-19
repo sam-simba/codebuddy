@@ -1,0 +1,6 @@
+{% extends 'main.html' %} {% block content %}
+<div>
+  <span> Message: {{ message }} </span>
+  <span><a href="{{ request.META.HTTP_REFERER }}">Go Back</a></span>
+</div>
+{% endblock %}
